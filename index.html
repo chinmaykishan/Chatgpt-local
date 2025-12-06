@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ChatGPT Clone — Local Demo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="chat-container">
+    <h2>ChatGPT Clone — Local Demo</h2>
+    <div id="chat-box" aria-live="polite"></div>
+    <div class="input-area">
+      <input id="user-input" type="text" placeholder="Type a message..." autocomplete="off" />
+      <button id="send-btn">Send</button>
+    </div>
+    <div class="controls">
+      <button id="clear-btn">Clear chat</button>
+      <label><input id="toggle-simulate" type="checkbox" checked /> Simulate typing</label>
+    </div>
+    <footer class="note">
+      Local demo only — powered by a rule-based brain. Switch to API later if you want real AI.
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
